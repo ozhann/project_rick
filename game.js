@@ -8,10 +8,10 @@ class Game {
   }
 
   init() {
-    this.introSound = loadSound("/Assets/introsound.mp3");
-    this.spaceSound = loadSound("/Assets/spacesound.mp3");
-    this.wubbaSound = loadSound("/Assets/WubbaLubba.mp3");
-    this.wubbaSound2 = loadSound("/Assets/OppositeWubba.mp3");
+    this.introSound = loadSound("Assets/introsound.mp3");
+    this.spaceSound = loadSound("Assets/spacesound.mp3");
+    this.wubbaSound = loadSound("Assets/WubbaLubba.mp3");
+    this.wubbaSound2 = loadSound("Assets/OppositeWubba.mp3");
 
     this.background = new Background();
     this.player = new Player();

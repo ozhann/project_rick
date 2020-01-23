@@ -1,10 +1,10 @@
 class Obstacle {
   constructor() {
-    this.meteor = loadImage("/Assets/meteor.gif");
+    this.meteor = loadImage("Assets/meteor.gif");
     this.width = 84;
     this.height = 60;
-    this.explosion = loadImage("/Assets/explosion.gif");
-    this.explosionFX = loadSound("/Assets/explosionFX.mp3")
+    this.explosion = loadImage("Assets/explosion.gif");
+    this.explosionFX = loadSound("Assets/explosionFX.mp3");
     this.x = width;
     this.y = random(0, height - this.height);
   }

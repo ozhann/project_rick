@@ -3,8 +3,8 @@ let screen = 0;
 
 function preload() {
   game.init();
-  this.startImg = loadImage("/Assets/menu/start.jpg");
-  this.endImg = loadImage("/Assets/menu/gameover.jpg");
+  this.startImg = loadImage("Assets/menu/start.jpg");
+  this.endImg = loadImage("Assets/menu/gameover.jpg");
 }
 
 function setup() {

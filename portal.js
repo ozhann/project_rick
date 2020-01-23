@@ -1,13 +1,13 @@
 class Portal {
   constructor() {
-    this.portal = loadImage("/Assets/portal.gif");
+    this.portal = loadImage("Assets/portal.gif");
     this.width = 100;
     this.height = 100;
 
     this.x = width;
     this.y = random(0, height - this.height);
-    this.wubbaSound = loadSound("/Assets/WubbaLubba.mp3");
-    this.wubbaSound2 = loadSound("/Assets/OppositeWubba.mp3");
+    this.wubbaSound = loadSound("Assets/WubbaLubba.mp3");
+    this.wubbaSound2 = loadSound("Assets/OppositeWubba.mp3");
   }
 
   draw() {
